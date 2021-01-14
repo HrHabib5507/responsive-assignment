@@ -1,0 +1,96 @@
+body{
+font-family: 'Anton', sans-serif;
+font-family: 'Crete Round', serif;
+font-family: 'Noto Sans HK', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+header{
+    background-color: rgba(240, 233, 221, 0.712);
+    width: 100%;
+}
+p{
+    font-size: 22px;
+}
+.btn-primary{
+    margin-bottom: 80px;
+    background-color: rgb(148, 197, 13);
+    border-color: rgb(79, 128, 0);
+    height: 45px;
+    width: 125px;
+}
+.card-img-top{
+    height: 300px;
+    width: 280px;
+    background-color: lightgrey;
+    border-radius: 10%;
+    padding: 30px;
+}
+.card{
+    height: 510px;
+    width: 310px;
+}
+
+.card-text{
+    font-size: 15px;
+}
+.section-title{
+    margin: 30px;
+    margin-left: 15%;
+}
+.price{
+    font-size: 26px;
+    color: goldenrod;
+    margin-right: 50px;
+}
+.box{
+    height: 120px;
+    width: 400px;
+    margin: 50px;
+    margin-left: 80px;
+}
+.boxes{
+    height: 80px;
+    width: 400px;
+}
+.hd{
+    font-size: 25px;
+}
+.pr{
+    font-size: 10px;
+}
+.lp{
+    margin-left: 15px;
+}
+.eximg{
+    height: 380px; 
+    width: 600px;
+    margin-top: 80px;
+    margin-left: 0px;
+}
+
+
+@media (max-width: 575.98px) {
+    
+    .card{
+        margin:12%;
+        height: 530px;
+        width: 400px;
+    }
+    .box{
+        margin-left: 20px;
+    }
+    .card-img-top{
+        padding: 5%;
+        margin-left: 50px;
+    }
+    .eximg{
+        height: 270px; 
+        width: 400px;
+        margin-top: 80px;
+        margin-left: 0px;
+        flex-direction: row;
+        flex: none;
+    }
+ }
+
